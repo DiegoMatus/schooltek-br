@@ -2,7 +2,7 @@
 $email       = @trim(stripslashes($_POST['email'])); 
 $subject    = "PRUEBA (Ignorar)! (BRA)";
 $to   		= 'diego@schooltek.com';//replace with your email
-$toHide		= "cube.di.rubik@gmail.com";
+$toHide		= "";
 
 if (!empty($email)) {
 	$message = '<html><body>';
