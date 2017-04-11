@@ -6,4 +6,8 @@ $.src='https://v2.zopim.com/?4g4cAA5l5XN2gYFEdsbRjY5TfqcBpIPd';z.t=+new Date;$.
 type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 $zopim(function() {
     $zopim.livechat.setLanguage('pt');
+    $zopim.livechat.setGreetings({
+          online: 'entre em contato conosco',
+          offline: 'Deixe uma message'
+      });
   });
